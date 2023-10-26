@@ -1,5 +1,6 @@
 # Andrei Rauta, Peyton Hecht
- 
+
+# Andrei's Code 
 def menu():
     print("Menu")
     print("-------------")
@@ -7,7 +8,7 @@ def menu():
           "2. Decode\n"
           "3. Quit\n")
 
-
+# Andrei's Code
 def encoder(password):
     encoded_pass = ""
 
@@ -28,7 +29,7 @@ def decoder(password):
     return decoded_num
 
 
-
+# Andrei's Code
 def main():
     encoded_pass = ""
 
@@ -44,7 +45,7 @@ def main():
             pass_encode = input("Please enter your password to encode: ")
             encoded_pass = encoder(pass_encode)
             print("Your password has been encoded and stored!\n")
-# Peyton's Code
+ # Peyton's Code
         else:
             print(f"The encoded password is {encoded_pass}, and the original password is {decoder(encoded_pass)}.\n")
 
